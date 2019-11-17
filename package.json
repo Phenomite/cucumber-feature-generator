@@ -1,0 +1,30 @@
+{
+  "name": "cucumber-feature-generator",
+  "version": "1.0.0",
+  "description": "(Warning - Not BDD Safe) Generate static features based on matrix of screen names and expected values in a spreadsheet format",
+  "main": "cucumber_role_matrix_to_feature_generate.js",
+  "dependencies": {
+    "node-xlsx": "^0.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "generate": "node cucumber_role_matrix_to_feature_generate.js example_matrix.xlsx features"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phenomite/cucumber-feature-generator.git"
+  },
+  "keywords": [
+    "cucumberjs",
+    "node",
+    "xlsx",
+    "features",
+    "matrix"
+  ],
+  "author": "phenomite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phenomite/cucumber-feature-generator/issues"
+  },
+  "homepage": "https://github.com/Phenomite/cucumber-feature-generator#readme"
+}
